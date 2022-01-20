@@ -60,7 +60,7 @@ section {
   font-size: 16px;
   color: #9e9e9e;
   letter-spacing: 0;
-  text-align: justify;
+  text-align: justify !important;
 }
 
 .t_g,
@@ -201,6 +201,50 @@ footer {
     width: 100%;
     object-fit: cover;
     max-width: 480px;
+    height: auto;
+  }
+
+  .fas,
+  .fa-bars {
+    margin-left: 2rem !important;
+    margin-top: 2rem !important;
+  }
+  .cadre {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .title_gauche,
+  .title_droite {
+    padding: 3rem;
+  }
+  .hr_t {
+    display: none;
+  }
+
+  .t_g,
+  .t_d {
+    margin-bottom: 2rem;
+    text-align: left !important;
+  }
+  p {
+    text-align: left !important;
+  }
+  .parag_one {
+    width: 95%;
+  }
+
+  .dotNews {
+    order: -1;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .image {
+    width: 100%;
+    object-fit: cover;
+    max-width: 992px;
     height: auto;
   }
 
